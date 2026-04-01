@@ -29,12 +29,13 @@ function FeatureSection() {
         Built for real days with interruptions, pressure, and limited energy.
       </p>
 
-      <div className="feature-list">
+      <div className="feature-list" role="list">
         {FEATURES.map((feature, index) => (
           <article
             className="feature-item reveal"
             key={feature.name}
             style={{ transitionDelay: `${index * 110}ms` }}
+            role="listitem"
           >
             <h3>{feature.name}</h3>
             <p>{feature.pitch}</p>

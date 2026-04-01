@@ -23,7 +23,7 @@ function App() {
         <img src="/assets/tody-logo.png" alt="Tody" className="brand-logo" />
       </header>
 
-      <main>
+      <main id="top" className="site-main">
         <HeroSection />
         <FeatureSection />
         <CtaSection />
